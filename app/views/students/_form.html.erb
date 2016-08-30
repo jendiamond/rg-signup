@@ -1,0 +1,122 @@
+<%= form_for(student) do |f| %>
+  <% if student.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(student.errors.count, "error") %> prohibited this student from being saved:</h2>
+
+      <ul>
+      <% student.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phone %>
+    <%= f.text_field :phone %>
+  </div>
+
+  <div class="field">
+    <%= f.label :zip_code %>
+    <%= f.text_field :zip_code %>
+  </div>
+
+  <div class="field">
+    <%= f.label :twitter_handle %>
+    <%= f.text_field :twitter_handle %>
+  </div>
+
+  <div class="field">
+    <%= f.label :github_user_name %>
+    <%= f.text_field :github_user_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :over_21 %>
+    <%= f.check_box :over_21 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :age %>
+    <%= f.number_field :age %>
+  </div>
+
+  <div class="field">
+    <%= f.label :operating_system %>
+    <%= f.text_field :operating_system %>
+  </div>
+
+  <div class="field">
+    <%= f.label :workshop %>
+    <%= f.datetime_select :workshop %>
+  </div>
+
+  <div class="field">
+    <%= f.label :rating %>
+    <%= f.text_field :rating %>
+  </div>
+
+  <div class="field">
+    <%= f.label :coach %>
+    <%= f.text_field :coach %>
+  </div>
+
+  <div class="field">
+    <%= f.label :pair %>
+    <%= f.text_field :pair %>
+  </div>
+
+  <div class="field">
+    <%= f.label :accepted %>
+    <%= f.check_box :accepted %>
+  </div>
+
+  <div class="field">
+    <%= f.label :attended %>
+    <%= f.check_box :attended %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phase_one %>
+    <%= f.check_box :phase_one %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phase_two %>
+    <%= f.check_box :phase_two %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phase_three %>
+    <%= f.check_box :phase_three %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phase_four %>
+    <%= f.check_box :phase_four %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phase_five %>
+    <%= f.check_box :phase_five %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

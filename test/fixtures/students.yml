@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone: MyString
+  zip_code: MyString
+  twitter_handle: MyString
+  github_user_name: MyString
+  over_21: false
+  age: 1
+  operating_system: MyString
+  workshop: 2016-08-30 07:27:30
+  rating: MyString
+  coach: MyString
+  pair: MyString
+  accepted: false
+  attended: false
+  phase_one: false
+  phase_two: false
+  phase_three: false
+  phase_four: false
+  phase_five: false
+
+two:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone: MyString
+  zip_code: MyString
+  twitter_handle: MyString
+  github_user_name: MyString
+  over_21: false
+  age: 1
+  operating_system: MyString
+  workshop: 2016-08-30 07:27:30
+  rating: MyString
+  coach: MyString
+  pair: MyString
+  accepted: false
+  attended: false
+  phase_one: false
+  phase_two: false
+  phase_three: false
+  phase_four: false
+  phase_five: false
